@@ -1,6 +1,6 @@
 // For Cloudflare Workers
 
-const urlToProxy = new URL("https://nyaa.si");
+const urlToProxy = new URL("https://ext.to");
 
 async function handleRequest(request) {
   const url = new URL(request.url);

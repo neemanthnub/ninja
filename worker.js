@@ -1,6 +1,6 @@
 // For Cloudflare Workers
 
-const urlToProxy = new URL("https://ext.to");
+const urlToProxy = new URL("https://pornhub.com");
 
 async function handleRequest(request) {
   const url = new URL(request.url);

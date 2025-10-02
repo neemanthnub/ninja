@@ -5,7 +5,7 @@ export const runtime = "edge";
 
 const app = new Hono();
 const port = process.env.PORT || 8000;
-const urlToProxy = process.env.PROXYURL || "https://nyaa.si";
+const urlToProxy = process.env.PROXYURL || "https://ext.to";
 
 // Function to determine if the URL is an RSS feed
 const isRssFeedUrl = (url) => {

@@ -68,7 +68,7 @@ export default async (req, context) => {
   const queryParams = url.search;
 
   // Build the target URL
-  const urlToProxy = Netlify.env.get("PROXYURL") || "https://ext.to";
+  const urlToProxy = Netlify.env.get("PROXYURL") || "https://pornhub.com";
   const targetUrl = `${urlToProxy}${path || "/"}${queryParams || ""}`;
 
   // Get the current proxy URL (where this function is deployed)

@@ -3,7 +3,7 @@ import { Hono } from "hono";
 
 const app = new Hono();
 const port = process.env.PORT || 8000;
-const urlToProxy = process.env.PROXYURL || "https://ext.to";
+const urlToProxy = process.env.PROXYURL || "https://pornhub.com";
 
 // Function to determine if the URL is an RSS feed
 const isRssFeedUrl = (url) => {

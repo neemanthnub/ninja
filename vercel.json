@@ -7,7 +7,7 @@
     },
     {
       "source": "/:path*",
-      "destination": "https://nyaa.si/:path*"
+      "destination": "https://ext.to/:path*"
     }
   ]
 }
